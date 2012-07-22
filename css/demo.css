@@ -1,0 +1,129 @@
+@import url('reset.css');
+
+/* General Codrops Demo Style */
+body{
+	background:#e1c9c7 url(../images/pattern.png) repeat top left;
+	color:#222;
+	font-family:"Merienda One", Georgia, "Times New Roman", serif;
+	font-size:12px;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+.clr{
+	clear:both;
+}
+h1 {
+	text-align:center;
+	margin:15px;
+	font-size:62px;
+	color:#8f0630;
+	text-shadow:1px 1px 1px #f7edeb;
+	padding-bottom:30px;
+}
+h1 span{
+	font-size:18px;
+	display:block;
+	color:#212121;
+}
+p{
+	text-align:center;
+	padding:20px;
+	text-shadow:1px 1px 1px #f7edeb;
+}
+/* Header Style */
+.header{
+	line-height:24px;
+	font-family: Arial, sans-serif;
+	font-size:11px;
+	background:#000;
+	opacity:0.9;
+	text-transform:uppercase;
+	-moz-box-shadow: 1px 0px 2px #000;
+	-webkit-box-shadow: 1px 0px 2px #000;
+	box-shadow: 1px 0px 2px #000;
+}
+.header a{
+	line-height:18px;
+	padding:0 4px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+}
+.header a:hover{
+	color:#fff;
+}
+.header a span{
+	font-weight:bold;
+}
+.header span.right_ab{
+	float:right;
+}
+.content{
+	margin:0px 25px;
+}
+/* Examples list */
+
+.more{
+	position:relative;
+	clear:both;
+}
+.more p{
+	color:#8f0630;
+	font-size:16px;
+}
+.more ul{
+	display:block;
+	text-align:center;
+}
+.more ul li{
+	display:inline;
+	padding:2px;
+	line-height:30px;
+}
+.more ul li.selected a,
+.more ul li.selected a:hover{
+	background:#690322;
+	color:#fff;
+	text-shadow:none;
+}
+.more ul li a{
+	text-shadow:1px 1px 1px #fff;
+	color:#333;
+	background:#fff;
+	padding:3px 6px;
+	white-space:nowrap;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.more ul li a:hover{
+	background:#8f0630;
+	color:#fff;
+	text-shadow:none;
+}
+.column{
+	width:48%;
+	float:left;
+	padding:1%;
+}
+@media screen and (max-width: 640px) {
+	.header{
+		text-align:center;
+	}
+	.header a{
+		font-size:10px;
+		text-shadow:none;
+		white-space:nowrap;
+	}
+	.header span.right_ab{
+		float:none;
+	}
+	h1{
+		font-size:40px;
+	}
+	h1 span{
+		font-size:16px;
+	}
+}
